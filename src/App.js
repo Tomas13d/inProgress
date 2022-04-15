@@ -44,7 +44,7 @@ function App() {
         <div class="fluid"></div>
    </div>
    <div>
-    {/* <h1 class="in">In Progress...</h1>  */}
+    <h1 class="in">In Progress...</h1>  
 </div>
 </>
   );
