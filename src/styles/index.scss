@@ -7,8 +7,8 @@ html,body { height:100%;background:black; }
     top: 50%;
     z-index: 0;
     transform: rotate(0.6turn);
-}
-.fluid {
+
+  .fluid {
     background-image:url("../assets/hexagon.png");
     background-size:contain;
     height:112px; width:105px;
@@ -72,6 +72,7 @@ html,body { height:100%;background:black; }
     0%,100% { opacity:0.05; }
     50% { opacity:1; }
   }
+}
 
 .in{
     position: fixed;
