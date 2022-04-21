@@ -1,0 +1,103 @@
+/* --------- SOCIAL MEDIA -------- */
+.social-media-container{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 70px;
+    right: auto;
+    z-index: 10;
+    color:  #5cd4fc  ;
+
+    .socialMedia-list{
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    .socialMedia-list::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0px auto;
+        background-color:   #5cd4fc  ;
+
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+
+        li {
+            display: list-item;
+            list-style: none;
+            font-size: 27px;
+            margin-bottom: 3px;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                text-decoration-skip-ink: auto;
+                color: inherit;
+                position: relative;
+            }
+            a:hover{
+                color: aliceblue;
+                transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+            }
+        }
+    }
+    
+}
+
+.mail-container {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 70px;
+    z-index: 10;
+    color:  #5cd4fc  ;
+
+    .mail{
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        position: relative;
+        
+
+        a{
+            margin: 0px  0 auto 3px;
+            padding: 10px;
+            font-size:  13px;
+            line-height: 18px;
+            letter-spacing: 0.1em;
+            writing-mode: vertical-rl;
+            text-decoration: none;
+            color:  #5cd4fc ;
+
+        }
+        a:hover{
+            color: aliceblue;
+            transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+        }
+    }
+
+    .mail::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0px auto;
+        background-color:   #5cd4fc ;
+    }
+}

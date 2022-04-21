@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&family=Quicksand:wght@300&display=swap');
+
+.welcome{
+    height: calc(100vh - 8.2rem);
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    gap: 4.8rem;
+    align-items: center;
+  }
+.container-welcome{
+    grid-column: 2/10;
+}
+
+
+  .hi{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    letter-spacing: 0.15px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .name{
+    font-size: 83px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+    letter-spacing: 1px;
+  }
+  
+.iAm{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    letter-spacing: 0.15px;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,53 +1,16 @@
+import Navbar from './Components/Navbar';
+import Background from './Components/Background';
+import Content from './Components/Content';
 
 
-
-function App() {
+const App = () => {
   return (
-    <>
-    <div class="background-container">
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
-        <div class="fluid"></div>
+    <div id="app">
+    <Navbar/>
+    <Background/>
+    <Content/>
    </div>
-   <div>
-    <h1 class="in">In Progress...</h1>  
-</div>
-</>
-  );
+  )
 }
 
 export default App;
